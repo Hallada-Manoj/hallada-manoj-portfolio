@@ -125,7 +125,7 @@ export const projects: Project[] = [
       "Logistic Regression",
       "Multinomial Naive Bayes",
     ],
-    githubLink: "https://github.com/Hallada-Manoj/Telco_Churn_Analysis",
+    githubLink: "https://github.com/Hallada-Manoj/ag-news-classification-multinomialnb",
     problemStatement:
       "Large news platforms require automatic categorization of articles to improve organization and search efficiency.",
     keyResults: [
