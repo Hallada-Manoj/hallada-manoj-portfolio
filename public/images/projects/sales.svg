@@ -1,0 +1,66 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" rx="16" fill="#020617"/>
+  <rect width="1200" height="675" rx="16" fill="url(#salesGrad)" fill-opacity="0.5"/>
+  <defs>
+    <linearGradient id="salesGrad" x1="0" y1="0" x2="1200" y2="675">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <!-- Title -->
+  <rect x="155" y="175" width="180" height="24" rx="12" fill="#6366F1" opacity="0.1"/>
+  <text x="245" y="191" fill="#6366F1" font-size="11" font-family="monospace" text-anchor="middle" font-weight="600">SALES DASHBOARD</text>
+  <!-- KPI cards -->
+  <rect x="160" y="215" width="200" height="80" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="180" y="240" fill="#64748B" font-size="10" font-family="monospace">Total Revenue</text>
+  <text x="180" y="268" fill="#38BDF8" font-size="22" font-family="sans-serif" font-weight="700">$1.24M</text>
+  <text x="300" y="268" fill="#22C55E" font-size="11" font-family="monospace">+12.5%</text>
+  <!-- KPI 2 -->
+  <rect x="380" y="215" width="200" height="80" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="400" y="240" fill="#64748B" font-size="10" font-family="monospace">Profit Margin</text>
+  <text x="400" y="268" fill="#6366F1" font-size="22" font-family="sans-serif" font-weight="700">18.4%</text>
+  <text x="520" y="268" fill="#22C55E" font-size="11" font-family="monospace">+3.2%</text>
+  <!-- KPI 3 -->
+  <rect x="600" y="215" width="200" height="80" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="620" y="240" fill="#64748B" font-size="10" font-family="monospace">Orders</text>
+  <text x="620" y="268" fill="#38BDF8" font-size="22" font-family="sans-serif" font-weight="700">3,842</text>
+  <text x="740" y="268" fill="#EF4444" font-size="11" font-family="monospace">-2.1%</text>
+  <!-- KPI 4 -->
+  <rect x="820" y="215" width="200" height="80" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="840" y="240" fill="#64748B" font-size="10" font-family="monospace">Avg. Order Value</text>
+  <text x="840" y="268" fill="#6366F1" font-size="22" font-family="sans-serif" font-weight="700">$324</text>
+  <text x="960" y="268" fill="#22C55E" font-size="11" font-family="monospace">+5.7%</text>
+  <!-- Bar chart -->
+  <text x="180" y="325" fill="#94A3B8" font-size="11" font-family="sans-serif" font-weight="600">Monthly Sales</text>
+  <rect x="180" y="380" width="30" height="140" rx="3" fill="#38BDF8" opacity="0.8"/>
+  <rect x="225" y="350" width="30" height="170" rx="3" fill="#38BDF8" opacity="0.7"/>
+  <rect x="270" y="370" width="30" height="150" rx="3" fill="#38BDF8" opacity="0.6"/>
+  <rect x="315" y="330" width="30" height="190" rx="3" fill="#6366F1" opacity="0.8"/>
+  <rect x="360" y="360" width="30" height="160" rx="3" fill="#6366F1" opacity="0.7"/>
+  <rect x="405" y="340" width="30" height="180" rx="3" fill="#38BDF8" opacity="0.8"/>
+  <text x="195" y="535" fill="#475569" font-size="9" font-family="monospace" text-anchor="middle">Jan</text>
+  <text x="240" y="535" fill="#475569" font-size="9" font-family="monospace" text-anchor="middle">Feb</text>
+  <text x="285" y="535" fill="#475569" font-size="9" font-family="monospace" text-anchor="middle">Mar</text>
+  <text x="330" y="535" fill="#475569" font-size="9" font-family="monospace" text-anchor="middle">Apr</text>
+  <text x="375" y="535" fill="#475569" font-size="9" font-family="monospace" text-anchor="middle">May</text>
+  <text x="420" y="535" fill="#475569" font-size="9" font-family="monospace" text-anchor="middle">Jun</text>
+  <!-- Pie chart -->
+  <text x="590" y="325" fill="#94A3B8" font-size="11" font-family="sans-serif" font-weight="600">Revenue by Category</text>
+  <circle cx="680" cy="435" r="80" fill="none" stroke="#1E293B" stroke-width="12"/>
+  <circle cx="680" cy="435" r="80" fill="none" stroke="#38BDF8" stroke-width="12" stroke-dasharray="170 340" stroke-dashoffset="0" transform="rotate(-90 680 435)"/>
+  <circle cx="680" cy="435" r="80" fill="none" stroke="#6366F1" stroke-width="12" stroke-dasharray="100 440" stroke-dashoffset="170" transform="rotate(-90 680 435)"/>
+  <circle cx="680" cy="435" r="80" fill="none" stroke="#22C55E" stroke-width="12" stroke-dasharray="70 470" stroke-dashoffset="270" transform="rotate(-90 680 435)"/>
+  <!-- Legend -->
+  <rect x="790" y="380" width="10" height="10" rx="2" fill="#38BDF8"/>
+  <text x="808" y="389" fill="#94A3B8" font-size="10" font-family="sans-serif">Electronics</text>
+  <rect x="790" y="405" width="10" height="10" rx="2" fill="#6366F1"/>
+  <text x="808" y="414" fill="#94A3B8" font-size="10" font-family="sans-serif">Clothing</text>
+  <rect x="790" y="430" width="10" height="10" rx="2" fill="#22C55E"/>
+  <text x="808" y="439" fill="#94A3B8" font-size="10" font-family="sans-serif">Accessories</text>
+  <!-- Trend arrow -->
+  <path d="M940 380 L980 340 L1020 370" stroke="#22C55E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="940" y="375" fill="#22C55E" font-size="10" font-family="monospace">Upward Trend</text>
+  <!-- Regional indicator -->
+  <rect x="940" y="410" width="120" height="30" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="965" y="430" fill="#94A3B8" font-size="10" font-family="sans-serif">&#127758; Top: North</text>
+</svg>

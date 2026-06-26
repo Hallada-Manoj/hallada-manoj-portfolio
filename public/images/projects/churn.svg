@@ -1,0 +1,54 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" rx="16" fill="#020617"/>
+  <rect width="1200" height="675" rx="16" fill="url(#churnGrad)" fill-opacity="0.5"/>
+  <defs>
+    <linearGradient id="churnGrad" x1="0" y1="0" x2="1200" y2="675">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <!-- Grid lines -->
+  <line x1="150" y1="200" x2="150" y2="500" stroke="#1E293B" stroke-width="1"/>
+  <line x1="150" y1="500" x2="1050" y2="500" stroke="#1E293B" stroke-width="1"/>
+  <line x1="150" y1="350" x2="1050" y2="350" stroke="#1E293B" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <line x1="150" y1="425" x2="1050" y2="425" stroke="#1E293B" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <line x1="150" y1="275" x2="1050" y2="275" stroke="#1E293B" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <!-- Y-axis labels -->
+  <text x="140" y="504" fill="#475569" font-size="11" font-family="monospace" text-anchor="end">0</text>
+  <text x="140" y="354" fill="#475569" font-size="11" font-family="monospace" text-anchor="end">50</text>
+  <text x="140" y="204" fill="#475569" font-size="11" font-family="monospace" text-anchor="end">100</text>
+  <!-- Bar chart - declining bars -->
+  <rect x="220" y="280" width="40" height="220" rx="3" fill="#38BDF8" opacity="0.8"/>
+  <rect x="290" y="300" width="40" height="200" rx="3" fill="#38BDF8" opacity="0.7"/>
+  <rect x="360" y="330" width="40" height="170" rx="3" fill="#38BDF8" opacity="0.6"/>
+  <rect x="430" y="370" width="40" height="130" rx="3" fill="#6366F1" opacity="0.7"/>
+  <rect x="500" y="390" width="40" height="110" rx="3" fill="#6366F1" opacity="0.6"/>
+  <rect x="570" y="420" width="40" height="80" rx="3" fill="#6366F1" opacity="0.5"/>
+  <!-- Trend line extending -->
+  <path d="M240 280 L310 300 L380 330 L450 370 L520 390 L590 420" stroke="#38BDF8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M590 420 L700 450 L800 460" stroke="#38BDF8" stroke-width="2.5" stroke-dasharray="6 4" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Forecast area -->
+  <path d="M590 420 L700 450 L800 460 L800 500 L700 500 L590 500 Z" fill="#38BDF8" opacity="0.05"/>
+  <!-- X-axis labels -->
+  <text x="240" y="520" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">Jan</text>
+  <text x="310" y="520" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">Feb</text>
+  <text x="380" y="520" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">Mar</text>
+  <text x="450" y="520" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">Apr</text>
+  <text x="520" y="520" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">May</text>
+  <text x="590" y="520" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">Jun</text>
+  <!-- Churn indicator arrow -->
+  <path d="M870 280 L930 280 L900 250" stroke="#EF4444" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  <text x="870" y="270" fill="#EF4444" font-size="12" font-family="monospace" font-weight="600">Churn Rate: 24%</text>
+  <!-- Customer retention icon -->
+  <circle cx="900" cy="420" r="40" fill="#38BDF8" opacity="0.08" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.2"/>
+  <circle cx="900" cy="420" r="25" fill="#38BDF8" opacity="0.12" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="900" y="425" fill="#38BDF8" font-size="20" font-family="monospace" text-anchor="middle">&#128101;</text>
+  <text x="900" y="480" fill="#94A3B8" font-size="10" font-family="monospace" text-anchor="middle">Active Users</text>
+  <text x="900" y="495" fill="#38BDF8" font-size="13" font-family="monospace" text-anchor="middle" font-weight="600">1,247</text>
+  <!-- Prediction badge -->
+  <rect x="155" y="175" width="120" height="24" rx="12" fill="#38BDF8" opacity="0.1"/>
+  <text x="215" y="191" fill="#38BDF8" font-size="11" font-family="monospace" text-anchor="middle" font-weight="600">CHURN ANALYSIS</text>
+  <!-- Forecast label -->
+  <text x="730" y="445" fill="#38BDF8" opacity="0.4" font-size="9" font-family="monospace">forecast</text>
+</svg>

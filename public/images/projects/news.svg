@@ -1,0 +1,95 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" rx="16" fill="#020617"/>
+  <rect width="1200" height="675" rx="16" fill="url(#agGrad)" fill-opacity="0.5"/>
+  <defs>
+    <linearGradient id="agGrad" x1="0" y1="0" x2="1200" y2="675">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+  <!-- Title -->
+  <rect x="155" y="175" width="240" height="24" rx="12" fill="#38BDF8" opacity="0.1"/>
+  <text x="275" y="191" fill="#38BDF8" font-size="11" font-family="monospace" text-anchor="middle" font-weight="600">NEWS CLASSIFICATION</text>
+  <!-- News Article 1 - Sports -->
+  <rect x="160" y="215" width="440" height="120" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <rect x="175" y="235" width="100" height="70" rx="6" fill="#1E293B"/>
+  <rect x="175" y="235" width="100" height="70" rx="6" fill="url(#sportsGrad)" opacity="0.4"/>
+  <line x1="290" y1="245" x2="570" y2="245" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="290" y1="260" x2="530" y2="260" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="290" y1="275" x2="570" y2="275" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="290" y1="290" x2="510" y2="290" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <rect x="175" y="310" width="55" height="18" rx="9" fill="#38BDF8" opacity="0.15"/>
+  <text x="202" y="323" fill="#38BDF8" font-size="9" font-family="monospace" text-anchor="middle" font-weight="600">Sports</text>
+  <text x="240" y="323" fill="#475569" font-size="9" font-family="monospace">2h ago</text>
+  <!-- News Article 2 - Business -->
+  <rect x="160" y="350" width="440" height="120" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <rect x="175" y="370" width="100" height="70" rx="6" fill="#1E293B"/>
+  <rect x="175" y="370" width="100" height="70" rx="6" fill="url(#bizGrad)" opacity="0.4"/>
+  <line x1="290" y1="380" x2="570" y2="380" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="290" y1="395" x2="520" y2="395" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="290" y1="410" x2="570" y2="410" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="290" y1="425" x2="540" y2="425" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <rect x="175" y="445" width="60" height="18" rx="9" fill="#6366F1" opacity="0.15"/>
+  <text x="205" y="458" fill="#6366F1" font-size="9" font-family="monospace" text-anchor="middle" font-weight="600">Business</text>
+  <text x="245" y="458" fill="#475569" font-size="9" font-family="monospace">4h ago</text>
+  <!-- News Article 3 - Technology -->
+  <rect x="620" y="215" width="410" height="120" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <rect x="635" y="235" width="100" height="70" rx="6" fill="#1E293B"/>
+  <rect x="635" y="235" width="100" height="70" rx="6" fill="url(#techGrad)" opacity="0.4"/>
+  <line x1="750" y1="245" x2="1000" y2="245" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="750" y1="260" x2="960" y2="260" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="750" y1="275" x2="1000" y2="275" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="750" y1="290" x2="950" y2="290" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <rect x="635" y="310" width="75" height="18" rx="9" fill="#22C55E" opacity="0.15"/>
+  <text x="672" y="323" fill="#22C55E" font-size="9" font-family="monospace" text-anchor="middle" font-weight="600">Technology</text>
+  <text x="720" y="323" fill="#475569" font-size="9" font-family="monospace">1h ago</text>
+  <!-- News Article 4 - World -->
+  <rect x="620" y="350" width="410" height="120" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <rect x="635" y="370" width="100" height="70" rx="6" fill="#1E293B"/>
+  <rect x="635" y="370" width="100" height="70" rx="6" fill="url(#worldGrad)" opacity="0.4"/>
+  <line x1="750" y1="380" x2="1000" y2="380" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="750" y1="395" x2="970" y2="395" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="750" y1="410" x2="1000" y2="410" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="750" y1="425" x2="930" y2="425" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <rect x="635" y="445" width="50" height="18" rx="9" fill="#F59E0B" opacity="0.15"/>
+  <text x="660" y="458" fill="#F59E0B" font-size="9" font-family="monospace" text-anchor="middle" font-weight="600">World</text>
+  <text x="695" y="458" fill="#475569" font-size="9" font-family="monospace">3h ago</text>
+  <!-- Flow arrow -->
+  <text x="575" y="300" fill="#38BDF8" opacity="0.3" font-size="24">&#8594;</text>
+  <text x="575" y="420" fill="#38BDF8" opacity="0.3" font-size="24">&#8594;</text>
+  <!-- Classification pipeline at bottom -->
+  <rect x="160" y="500" width="870" height="50" rx="12" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="200" y="530" fill="#94A3B8" font-size="11" font-family="sans-serif" font-weight="600">NLP Pipeline:</text>
+  <rect x="300" y="517" width="90" height="22" rx="11" fill="#38BDF8" opacity="0.1"/>
+  <text x="345" y="532" fill="#38BDF8" font-size="9" font-family="monospace" text-anchor="middle">Tokenization</text>
+  <text x="400" y="530" fill="#334155" font-size="14">&#8594;</text>
+  <rect x="415" y="517" width="70" height="22" rx="11" fill="#6366F1" opacity="0.1"/>
+  <text x="450" y="532" fill="#6366F1" font-size="9" font-family="monospace" text-anchor="middle">TF-IDF</text>
+  <text x="495" y="530" fill="#334155" font-size="14">&#8594;</text>
+  <rect x="510" y="517" width="80" height="22" rx="11" fill="#22C55E" opacity="0.1"/>
+  <text x="550" y="532" fill="#22C55E" font-size="9" font-family="monospace" text-anchor="middle">Training</text>
+  <text x="600" y="530" fill="#334155" font-size="14">&#8594;</text>
+  <rect x="615" y="517" width="90" height="22" rx="11" fill="#38BDF8" opacity="0.1"/>
+  <text x="660" y="532" fill="#38BDF8" font-size="9" font-family="monospace" text-anchor="middle">GridSearchCV</text>
+  <text x="715" y="530" fill="#334155" font-size="14">&#8594;</text>
+  <rect x="730" y="517" width="80" height="22" rx="11" fill="#F59E0B" opacity="0.1"/>
+  <text x="770" y="532" fill="#F59E0B" font-size="9" font-family="monospace" text-anchor="middle">Classify</text>
+  <defs>
+    <linearGradient id="sportsGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="bizGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="techGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="worldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+</svg>
